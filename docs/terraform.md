@@ -4,7 +4,6 @@
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.13 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | 3.70.0 |
 | <a name="requirement_hcp"></a> [hcp](#requirement\_hcp) | 0.21.1 |
 
 ## Providers
@@ -59,5 +58,6 @@
 
 | Name | Description |
 |------|-------------|
+| <a name="output_hcp_hvn_destination_cidr"></a> [hcp\_hvn\_destination\_cidr](#output\_hcp\_hvn\_destination\_cidr) | The destination CIDR of the HVN route. |
 | <a name="output_hvn_route_self_link"></a> [hvn\_route\_self\_link](#output\_hvn\_route\_self\_link) | A unique URL identifying the HVN route. |
 <!-- markdownlint-restore -->
