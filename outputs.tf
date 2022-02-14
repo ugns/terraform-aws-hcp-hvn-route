@@ -1,6 +1,6 @@
 output "hvn_route_self_link" {
   description = "A unique URL identifying the HVN route."
-  value       = hcp_hvn_route.this[0].self_link
+  value       = join("", hcp_hvn_route.this.*.self_link)
 }
 
 output "hcp_hvn_destination_cidr" {
