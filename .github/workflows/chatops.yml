@@ -12,7 +12,7 @@ jobs:
       contents: read
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Generate token
         id: generate_token
         uses: tibdex/github-app-token@v1
@@ -40,7 +40,7 @@ jobs:
 
     steps:
       - name: "Checkout commit"
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Generate token
         id: generate_token
